@@ -7,46 +7,6 @@
 - JWT-auth for authorization
 - Reference for Repository & Service architectural design
 
-### Directory Structure
-
-```
-├── app
-│   ├── Console
-│   │   ├── Commands                
-│   │   └── Kernel.php              
-│   ├── Contracts                    
-│   ├── Enums                       
-│   │   └── ResponseEnum.php
-│   ├── Events                      
-│   │   ├── Event.php
-│   │   └── ExampleEvent.php
-│   ├── Exceptions                   
-│   │   └── Handler.php
-│   ├── Http
-│   │   ├── Controllers            
-│   │   │   ├── Controller.php
-│   │   │   └── UsersController.php   
-│   │   ├── Middleware
-│   │   │   └── Authenticate.php     
-│   │   └── Resources
-│   │       └── UserResource.php      
-│   ├── Jobs                       
-│   │   ├── ExampleJob.php
-│   │   └── Job.php
-│   ├── Listeners                   
-│   │   └── ExampleListener.php
-│   ├── Models                     
-│   │   └── User.php
-│   ├── Providers                  
-│   │   └── AppServiceProvider.php
-│   ├── Services                     
-│   └── Support                     
-│       ├── Traits
-│       │   ├── Helpers.php          
-│       │   └── SerializeDate.php
-│       └── helpers.php             
-```
-
 ### Role Description
 
 **Controller Responsibilities**:
@@ -82,9 +42,9 @@ The Model layer only requires simple data definitions, such as table definitions
    - Class name: Noun, singular, e.g., `UserService`, `EmailService`, and `OrderService`.
    - Method name: `verb + noun`, describing business needs that can be achieved, e.g., `handleRegistration` for user registration functionality.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Contact
-Email: ourdarkchemistry@gmail.com
-GitHub: https://github.com/ourdarkchemistry
+## Contact
+- **Email:** ourdarkchemistry@gmail.com
+- **GitHub:** https://github.com/ourdarkchemistry
