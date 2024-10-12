@@ -82,7 +82,7 @@ The Model layer only requires simple data definitions, such as table definitions
    - Class name: Noun, singular, e.g., `UserService`, `EmailService`, and `OrderService`.
    - Method name: `verb + noun`, describing business needs that can be achieved, e.g., `handleRegistration` for user registration functionality.
 
-  License
+License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
