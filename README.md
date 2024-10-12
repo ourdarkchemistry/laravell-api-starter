@@ -81,3 +81,10 @@ The Model layer only requires simple data definitions, such as table definitions
 - **Services**:
    - Class name: Noun, singular, e.g., `UserService`, `EmailService`, and `OrderService`.
    - Method name: `verb + noun`, describing business needs that can be achieved, e.g., `handleRegistration` for user registration functionality.
+
+  License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+Email: ourdarkchemistry@gmail.com
+GitHub: https://github.com/ourdarkchemistry
